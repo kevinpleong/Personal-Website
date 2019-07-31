@@ -49,327 +49,327 @@ import Virginia2 from './Virginia2.jpg'
 export default class Travel extends React.Component {
   render() {
     return (
-      <div class="container">
-      <div class="col-md-12">
+      <div className="container">
+      <div className="col-md-12">
         <h1>Travels</h1>
       </div>
-      <div class="row">
-        <div class="col-md-12">
+      <div className="row">
+        <div className="col-md-12">
           <p>Domestic Travel Photos</p>
         </div>
       </div>
-      <div class="row">
-        <div class="col-md-4">
-          <img src={Virginia} alt="Giants vs. Nationals" class="img-fluid"></img>
-            <div class="caption text-center">
-              <p class="text-center">In Washington DC at the Giants vs. Nationals game</p>
+      <div className="row">
+        <div className="col-md-4">
+          <img src={Virginia} alt="Giants vs. Nationals" className="img-fluid"></img>
+            <div className="caption text-center">
+              <p className="text-center">In Washington DC at the Giants vs. Nationals game</p>
             </div>
           </div>
-        <div class="col-md-4">
-          <img src={Virginia2} alt="Eating Crab" class="img-fluid"></img>
-            <div class="caption text-center">
-              <p class="text-center">Eating Crab in Virginia</p>
+        <div className="col-md-4">
+          <img src={Virginia2} alt="Eating Crab" className="img-fluid"></img>
+            <div className="caption text-center">
+              <p className="text-center">Eating Crab in Virginia</p>
             </div>
           </div>
-        <div class="col-md-4">
-          <img src={Boston} alt="Boston" class="img-fluid"></img>
-            <div class="caption text-center">
-              <p class="text-center">Boston</p>
-            </div>
-          </div>
-      </div>
-
-      <div class="row">
-        <div class="col-md-4">
-          <img src={Florida} alt="Space Shuttle Launch" class="img-fluid"></img>
-            <div class="caption text-center">
-              <p class="text-center">Florida Nasa Space Shuttle Launch</p>
-            </div>
-          </div>
-        <div class="col-md-4">
-          <img src={NewOrleans} alt="Picture out front of Creole Restaurant in New Orleans" class="img-fluid"></img>
-            <div class="caption text-center">
-              <p class="text-center">New Orleans in front of a Creole Restaurant</p>
-            </div>
-          </div>
-        <div class="col-md-4">
-          <img src={NewYork} alt="New York" class="img-fluid"></img>
-            <div class="caption text-center">
-              <p class="text-center">New York</p>
+        <div className="col-md-4">
+          <img src={Boston} alt="Boston" className="img-fluid"></img>
+            <div className="caption text-center">
+              <p className="text-center">Boston</p>
             </div>
           </div>
       </div>
 
-      <div class="row">
-        <div class="col-md-4">
-          <img src={Hawaii} alt="Ziplining" class="img-fluid"></img>
-            <div class="caption text-center">
-              <p class="text-center">Ziplining in Hawaii</p>
+      <div className="row">
+        <div className="col-md-4">
+          <img src={Florida} alt="Space Shuttle Launch" className="img-fluid"></img>
+            <div className="caption text-center">
+              <p className="text-center">Florida Nasa Space Shuttle Launch</p>
             </div>
           </div>
-        <div class="col-md-4">
-          <img src={LosAngeles} alt="In front of the Jurasic Park sign in LA" class="img-fluid"></img>
-            <div class="caption text-center">
-              <p class="text-center">LA</p>
+        <div className="col-md-4">
+          <img src={NewOrleans} alt="Picture out front of Creole Restaurant in New Orleans" className="img-fluid"></img>
+            <div className="caption text-center">
+              <p className="text-center">New Orleans in front of a Creole Restaurant</p>
             </div>
           </div>
-        <div class="col-md-4">
-          <img src={Seattle} alt="Seattle" class="img-fluid"></img>
-            <div class="caption text-center">
-              <p class="text-center">Seattle</p>
+        <div className="col-md-4">
+          <img src={NewYork} alt="New York" className="img-fluid"></img>
+            <div className="caption text-center">
+              <p className="text-center">New York</p>
             </div>
           </div>
       </div>
 
-<div class="row">
+      <div className="row">
+        <div className="col-md-4">
+          <img src={Hawaii} alt="Ziplining" className="img-fluid"></img>
+            <div className="caption text-center">
+              <p className="text-center">Ziplining in Hawaii</p>
+            </div>
+          </div>
+        <div className="col-md-4">
+          <img src={LosAngeles} alt="In front of the Jurasic Park sign in LA" className="img-fluid"></img>
+            <div className="caption text-center">
+              <p className="text-center">LA</p>
+            </div>
+          </div>
+        <div className="col-md-4">
+          <img src={Seattle} alt="Seattle" className="img-fluid"></img>
+            <div className="caption text-center">
+              <p className="text-center">Seattle</p>
+            </div>
+          </div>
+      </div>
+
+<div className="row">
   <p>I ironically have traveled internationally a lot more than I have actually traveled domestically.</p>
 </div>
-      <div class="row">
-        <div class="col-md-3">
-          <img src={China} alt="Family and I on the Great Wall of China" class="img-fluid"></img>
-            <div class="caption text-center">
-              <p class="text-center">Great Wall of China</p>
+      <div className="row">
+        <div className="col-md-3">
+          <img src={China} alt="Family and I on the Great Wall of China" className="img-fluid"></img>
+            <div className="caption text-center">
+              <p className="text-center">Great Wall of China</p>
             </div>
           </div>
-        <div class="col-md-3">
-          <img src={China1} alt="Harbin Ice and Snow Sculpture Festival" class="img-fluid"></img>
-            <div class="caption text-center">
-              <p class="text-center">Harbin China Ice and Snow Sculpture Festival</p>
+        <div className="col-md-3">
+          <img src={China1} alt="Harbin Ice and Snow Sculpture Festival" className="img-fluid"></img>
+            <div className="caption text-center">
+              <p className="text-center">Harbin China Ice and Snow Sculpture Festival</p>
             </div>
           </div>
-          <div class="col-md-3">
-            <img src={Philippines2} alt="Sand Castle with the words Borocay August, 5, 2012" class="img-fluid"></img>
-              <div class="caption text-center">
-                <p class="text-center">Sand Castle Borocay Philippines</p>
+          <div className="col-md-3">
+            <img src={Philippines2} alt="Sand Castle with the words Borocay August, 5, 2012" className="img-fluid"></img>
+              <div className="caption text-center">
+                <p className="text-center">Sand Castle Borocay Philippines</p>
               </div>
             </div>
       </div>
 
 
-      <div class="row">
-        <div class="col-md-3">
-          <img src={Philippines3} alt="Parasailing in Philippines" class="img-fluid"></img>
-            <div class="caption text-center">
-              <p class="text-center">Parasailing Borocay Philippines</p>
+      <div className="row">
+        <div className="col-md-3">
+          <img src={Philippines3} alt="Parasailing in Philippines" className="img-fluid"></img>
+            <div className="caption text-center">
+              <p className="text-center">Parasailing Borocay Philippines</p>
             </div>
           </div>
-        <div class="col-md-3">
-          <img src={Philippines} alt="Scuba Diving in Cebu Philippines" class="img-fluid"></img>
-            <div class="caption text-center">
-              <p class="text-center">Scuba Diving in Cebu, Philippines</p>
+        <div className="col-md-3">
+          <img src={Philippines} alt="Scuba Diving in Cebu Philippines" className="img-fluid"></img>
+            <div className="caption text-center">
+              <p className="text-center">Scuba Diving in Cebu, Philippines</p>
             </div>
           </div>
-        <div class="col-md-3">
-          <img src={Korea} alt="DMZ in Korea" class="img-fluid"></img>
-            <div class="caption text-center">
-              <p class="text-center">DMZ in Seoul, South Korea</p>
+        <div className="col-md-3">
+          <img src={Korea} alt="DMZ in Korea" className="img-fluid"></img>
+            <div className="caption text-center">
+              <p className="text-center">DMZ in Seoul, South Korea</p>
             </div>
           </div>
-        <div class="col-md-3">
-          <img src={Australia} alt="Holding a Koala" class="img-fluid"></img>
-            <div class="caption text-center">
-              <p class="text-center">Holding a Koala in Sydney, Australia</p>
+        <div className="col-md-3">
+          <img src={Australia} alt="Holding a Koala" className="img-fluid"></img>
+            <div className="caption text-center">
+              <p className="text-center">Holding a Koala in Sydney, Australia</p>
             </div>
           </div>
-        <div class="col-md-3">
-          <img src={Australia2} alt="Sydney Bridge and Opera House" class="img-fluid"></img>
-            <div class="caption text-center">
-              <p class="text-center">In front of Sydney Bridge and Opera House</p>
-            </div>
-          </div>
-      </div>
-
-
-      <div class="row">
-        <div class="col-md-3">
-          <img src={Australia3} alt="Sydney Harbor Bridge Australia" class="img-fluid"></img>
-            <div class="caption text-center">
-              <p class="text-center">Sydney Harbor Bridge in Australia</p>
-            </div>
-          </div>
-        <div class="col-md-3">
-          <img src={NewZealand} alt="Hobit New Zealand" class="img-fluid"></img>
-            <div class="caption text-center">
-              <p class="text-center">Hobbit in New Zealand</p>
-            </div>
-          </div>
-        <div class="col-md-3">
-          <img src={Ecuador} alt="Ecuador Longitude latitude 00" class="img-fluid"></img>
-            <div class="caption text-center">
-              <p class="text-center">Ecuador Longitude latitude 00</p>
-            </div>
-          </div>
-        <div class="col-md-3">
-          <img src={Galapagos} alt="Charles Darwin Research Center" class="img-fluid"></img>
-            <div class="caption text-center">
-              <p class="text-center">Charles Darwin Research Center</p>
+        <div className="col-md-3">
+          <img src={Australia2} alt="Sydney Bridge and Opera House" className="img-fluid"></img>
+            <div className="caption text-center">
+              <p className="text-center">In front of Sydney Bridge and Opera House</p>
             </div>
           </div>
       </div>
 
 
-      <div class="row">
-        <div class="col-md-3">
-          <img src={Galapagos2} alt="Giant Tortoise with me" class="img-fluid"></img>
-            <div class="caption text-center">
-              <p class="text-center">Galapagos Giant Tortoise</p>
+      <div className="row">
+        <div className="col-md-3">
+          <img src={Australia3} alt="Sydney Harbor Bridge Australia" className="img-fluid"></img>
+            <div className="caption text-center">
+              <p className="text-center">Sydney Harbor Bridge in Australia</p>
             </div>
           </div>
-        <div class="col-md-3">
-          <img src={Singapore} alt="In front of the Singapore Sentenial Hotel Sign" class="img-fluid"></img>
-            <div class="caption text-center">
-              <p class="text-center">Singapore Hotel</p>
+        <div className="col-md-3">
+          <img src={NewZealand} alt="Hobit New Zealand" className="img-fluid"></img>
+            <div className="caption text-center">
+              <p className="text-center">Hobbit in New Zealand</p>
             </div>
           </div>
-        <div class="col-md-3">
-          <img src={Singapore2} alt="Santosa Singapore" class="img-fluid"></img>
-            <div class="caption text-center">
-              <p class="text-center">Santosa Singapore</p>
+        <div className="col-md-3">
+          <img src={Ecuador} alt="Ecuador Longitude latitude 00" className="img-fluid"></img>
+            <div className="caption text-center">
+              <p className="text-center">Ecuador Longitude latitude 00</p>
             </div>
           </div>
-        <div class="col-md-3">
-          <img src={Malaysia} alt="Tioman Malaysia" class="img-fluid"></img>
-            <div class="caption text-center">
-              <p class="text-center">Tioman Malasia</p>
-            </div>
-          </div>
-      </div>
-
-
-      <div class="row">
-        <div class="col-md-3">
-          <img src={Paris} alt="Disney Paris France" class="img-fluid"></img>
-            <div class="caption text-center">
-              <p class="text-center">Disney Paris in France</p>
-            </div>
-          </div>
-        <div class="col-md-3">
-          <img src={Paris2} alt="Notre Dame Paris" class="img-fluid"></img>
-            <div class="caption text-center">
-              <p class="text-center">Notre Dame, Paris, France</p>
-            </div>
-          </div>
-        <div class="col-md-3">
-          <img src={England} alt="Big Ben in England" class="img-fluid"></img>
-            <div class="caption text-center">
-              <p class="text-center">Big Ben in England</p>
-            </div>
-          </div>
-        <div class="col-md-3">
-          <img src={England3} alt="London bridge" class="img-fluid"></img>
-            <div class="caption text-center">
-              <p class="text-center">London Bridge</p>
+        <div className="col-md-3">
+          <img src={Galapagos} alt="Charles Darwin Research Center" className="img-fluid"></img>
+            <div className="caption text-center">
+              <p className="text-center">Charles Darwin Research Center</p>
             </div>
           </div>
       </div>
 
 
-      <div class="row">
-        <div class="col-md-3">
-          <img src={England2} alt="Lights" class="img-fluid"></img>
-            <div class="caption text-center">
-              <p class="text-center">Harry Potter England</p>
+      <div className="row">
+        <div className="col-md-3">
+          <img src={Galapagos2} alt="Giant Tortoise with me" className="img-fluid"></img>
+            <div className="caption text-center">
+              <p className="text-center">Galapagos Giant Tortoise</p>
             </div>
           </div>
-        <div class="col-md-3">
-          <img src={Spain} alt="Sagrada Familia Church Barcelona" class="img-fluid"></img>
-            <div class="caption text-center">
-              <p class="text-center">Sagrada Familia Church Barcelona</p>
+        <div className="col-md-3">
+          <img src={Singapore} alt="In front of the Singapore Sentenial Hotel Sign" className="img-fluid"></img>
+            <div className="caption text-center">
+              <p className="text-center">Singapore Hotel</p>
             </div>
           </div>
-        <div class="col-md-3">
-          <img src={Spain2} alt="Rock of Gibraltar" class="img-fluid"></img>
-            <div class="caption text-center">
-              <p class="text-center">Rock of Gibraltar</p>
+        <div className="col-md-3">
+          <img src={Singapore2} alt="Santosa Singapore" className="img-fluid"></img>
+            <div className="caption text-center">
+              <p className="text-center">Santosa Singapore</p>
             </div>
           </div>
-        <div class="col-md-3">
-          <img src={Africa} alt="Morocco Camel Ride" class="img-fluid"></img>
-            <div class="caption text-center">
-              <p class="text-center">Morocco Camel Ride</p>
-            </div>
-          </div>
-      </div>
-
-
-      <div class="row">
-        <div class="col-md-3">
-          <img src={Chamonix} alt="hamonix France Family Photo with Mountain Background" class="img-fluid"></img>
-            <div class="caption text-center">
-              <p class="text-center">Chamonix, France</p>
-            </div>
-          </div>
-        <div class="col-md-3">
-          <img src={Chaminix2} alt="Paragliding off Mount BLanc" class="img-fluid"></img>
-            <div class="caption text-center">
-              <p class="text-center">Paragliding off of Mont Blanc in France</p>
-            </div>
-          </div>
-        <div class="col-md-3">
-          <img src={Belgium} alt="Belgium" class="img-fluid"></img>
-            <div class="caption text-center">
-              <p class="text-center">Belgium</p>
-            </div>
-          </div>
-        <div class="col-md-3">
-          <img src={Germany} alt="Germany" class="img-fluid"></img>
-            <div class="caption text-center">
-              <p class="text-center">Germany</p>
+        <div className="col-md-3">
+          <img src={Malaysia} alt="Tioman Malaysia" className="img-fluid"></img>
+            <div className="caption text-center">
+              <p className="text-center">Tioman Malasia</p>
             </div>
           </div>
       </div>
 
 
-      <div class="row">
-        <div class="col-md-3">
-          <img src={Rome} alt="Rome" class="img-fluid"></img>
-            <div class="caption text-center">
-              <p class="text-center">Rome Colleseum in Rome</p>
+      <div className="row">
+        <div className="col-md-3">
+          <img src={Paris} alt="Disney Paris France" className="img-fluid"></img>
+            <div className="caption text-center">
+              <p className="text-center">Disney Paris in France</p>
             </div>
           </div>
-        <div class="col-md-3">
-          <img src={Japan} alt="JapanPotstickers" class="img-fluid"></img>
-            <div class="caption text-center">
-              <p class="text-center">Eating Potstickers Japan</p>
+        <div className="col-md-3">
+          <img src={Paris2} alt="Notre Dame Paris" className="img-fluid"></img>
+            <div className="caption text-center">
+              <p className="text-center">Notre Dame, Paris, France</p>
             </div>
           </div>
-        <div class="col-md-3">
-          <img src={Japan2} alt="Train in Japan" class="img-fluid"></img>
-            <div class="caption text-center">
-              <p class="text-center">Train in Japan</p>
+        <div className="col-md-3">
+          <img src={England} alt="Big Ben in England" className="img-fluid"></img>
+            <div className="caption text-center">
+              <p className="text-center">Big Ben in England</p>
             </div>
           </div>
-        <div class="col-md-3">
-          <img src={Japan3} alt="zoo in Japan" class="img-fluid"></img>
-            <div class="caption text-center">
-              <p class="text-center">Zoo in Japan</p>
+        <div className="col-md-3">
+          <img src={England3} alt="London bridge" className="img-fluid"></img>
+            <div className="caption text-center">
+              <p className="text-center">London Bridge</p>
             </div>
           </div>
       </div>
 
-      <div class="row">
-        <div class="col-md-4">
-          <img src={Thailand} alt="Kao Phing Kan also known as James Bond Island" class="img-fluid"></img>
-            <div class="caption text-center">
-              <p class="text-center">Khao Phing Kan
+
+      <div className="row">
+        <div className="col-md-3">
+          <img src={England2} alt="Lights" className="img-fluid"></img>
+            <div className="caption text-center">
+              <p className="text-center">Harry Potter England</p>
+            </div>
+          </div>
+        <div className="col-md-3">
+          <img src={Spain} alt="Sagrada Familia Church Barcelona" className="img-fluid"></img>
+            <div className="caption text-center">
+              <p className="text-center">Sagrada Familia Church Barcelona</p>
+            </div>
+          </div>
+        <div className="col-md-3">
+          <img src={Spain2} alt="Rock of Gibraltar" className="img-fluid"></img>
+            <div className="caption text-center">
+              <p className="text-center">Rock of Gibraltar</p>
+            </div>
+          </div>
+        <div className="col-md-3">
+          <img src={Africa} alt="Morocco Camel Ride" className="img-fluid"></img>
+            <div className="caption text-center">
+              <p className="text-center">Morocco Camel Ride</p>
+            </div>
+          </div>
+      </div>
+
+
+      <div className="row">
+        <div className="col-md-3">
+          <img src={Chamonix} alt="hamonix France Family Photo with Mountain Background" className="img-fluid"></img>
+            <div className="caption text-center">
+              <p className="text-center">Chamonix, France</p>
+            </div>
+          </div>
+        <div className="col-md-3">
+          <img src={Chaminix2} alt="Paragliding off Mount BLanc" className="img-fluid"></img>
+            <div className="caption text-center">
+              <p className="text-center">Paragliding off of Mont Blanc in France</p>
+            </div>
+          </div>
+        <div className="col-md-3">
+          <img src={Belgium} alt="Belgium" className="img-fluid"></img>
+            <div className="caption text-center">
+              <p className="text-center">Belgium</p>
+            </div>
+          </div>
+        <div className="col-md-3">
+          <img src={Germany} alt="Germany" className="img-fluid"></img>
+            <div className="caption text-center">
+              <p className="text-center">Germany</p>
+            </div>
+          </div>
+      </div>
+
+
+      <div className="row">
+        <div className="col-md-3">
+          <img src={Rome} alt="Rome" className="img-fluid"></img>
+            <div className="caption text-center">
+              <p className="text-center">Rome Colleseum in Rome</p>
+            </div>
+          </div>
+        <div className="col-md-3">
+          <img src={Japan} alt="JapanPotstickers" className="img-fluid"></img>
+            <div className="caption text-center">
+              <p className="text-center">Eating Potstickers Japan</p>
+            </div>
+          </div>
+        <div className="col-md-3">
+          <img src={Japan2} alt="Train in Japan" className="img-fluid"></img>
+            <div className="caption text-center">
+              <p className="text-center">Train in Japan</p>
+            </div>
+          </div>
+        <div className="col-md-3">
+          <img src={Japan3} alt="zoo in Japan" className="img-fluid"></img>
+            <div className="caption text-center">
+              <p className="text-center">Zoo in Japan</p>
+            </div>
+          </div>
+      </div>
+
+      <div className="row">
+        <div className="col-md-4">
+          <img src={Thailand} alt="Kao Phing Kan also known as James Bond Island" className="img-fluid"></img>
+            <div className="caption text-center">
+              <p className="text-center">Khao Phing Kan
  James Bond Island in Thailand. See it in The Man with the Golden Gun</p>
             </div>
           </div>
-        <div class="col-md-4">
-          <img src={Phuket} alt="Phuket Thailand Elephant Ride" class="img-fluid"></img>
-            <div class="caption text-center">
-              <p class="text-center">Elephant Ride in Phuket Thailand</p>
+        <div className="col-md-4">
+          <img src={Phuket} alt="Phuket Thailand Elephant Ride" className="img-fluid"></img>
+            <div className="caption text-center">
+              <p className="text-center">Elephant Ride in Phuket Thailand</p>
             </div>
           </div>
-        <div class="col-md-4">
-          <img src={Taiwan} alt="Taiwan" class="img-fluid"></img>
-            <div class="caption text-center">
-              <p class="text-center">Taipei 101 Taiwan</p>
+        <div className="col-md-4">
+          <img src={Taiwan} alt="Taiwan" className="img-fluid"></img>
+            <div className="caption text-center">
+              <p className="text-center">Taipei 101 Taiwan</p>
             </div>
           </div>
       </div>
 
-      <div class="col-md-12">
+      <div className="col-md-12">
         <p>I have travelled all over the world and travelled internationally a lot more than domestically. I am a little bit sick of Korea because I have been to there 5 times. I have been to Japan 3 times and the Philippines twice. I have been to London, England 3 times and Paris 4 times.</p>
     </div>
     </div>

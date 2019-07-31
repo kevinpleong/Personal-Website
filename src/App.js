@@ -4,7 +4,6 @@ import React from 'react';
 // BrowserRouter TOP MOST component that we add to our application
 // Link is a type of component that can change which page we are looking at
 //  The Route import is just something we use to move to different web pages.
-import {Route, Link, BrowserRouter as Router} from 'react-router-dom'
 import Home from './components/Home.js';
 import Bio from './components/Bio.js';
 import Navbar from './components/Navbar.js';
@@ -13,15 +12,12 @@ import Programming from './components/Programming.js';
 import Travel from './components/travel/Travel.js';
 import Resume from './components/Resume.js';
 import Art from './components/Art.js';
+import {Route, Link, BrowserRouter as Router} from 'react-router-dom'
 
-class App extends React.Component {
-
-  constructor(props) {
-    super(props);
-  } // END OF CONSTRUCTOR
-
-  render() {
-    return (<div className="container">
+  export default class App extends React.Component {
+    render() {
+      return (
+        <div className="container">
       <Router>
         <Navbar/>
         <Route path="/" exact component={Home}/>
@@ -35,4 +31,3 @@ class App extends React.Component {
     </div>);
   } // END OF RENDER
 } // END OF App
-export default App
