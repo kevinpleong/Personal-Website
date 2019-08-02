@@ -14,10 +14,10 @@ return (
     </div>
     <div className="col-md-6">
       <div className="row">
-        <img src={linkedinIcon} width="30" height="30" alt="Linked In Icon" href="https://www.linkedin.com/in/kevinpleong" target="_blank" rel="noopener" className="img-responsive" />
+        <a href="https://www.linkedin.com/in/kevinpleong" target="_blank" rel="noopener" ><img src={linkedinIcon} width="30" height="30" alt="Linked In Icon" className="img-responsive" /></a>
       </div>
       <div className="row">
-        <img src={mailIcon} width="30" height="30" href="http://contact.kevinpleong.com" alt="Email" className="img-responsive" rel="noopener" target="_blank" />
+        <a href="http://contact.kevinpleong.com" rel="noopener" target="_blank"><img src={mailIcon} width="30" height="30" alt="Email" className="img-responsive" /></a>
       </div>
     </div>
     <div className="col-md-12">

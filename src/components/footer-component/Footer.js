@@ -16,25 +16,25 @@ export default class Footer extends React.Component {
       <footer className="blog-footer">
         <p>Made by Kevin Leong</p>
 
-          <img src={facebookIcon} width="30" height="30" href="https://www.facebook.com/kevinpleong" alt="Facebook Icon" class="img-responsive" rel="noopener" target="_blank" />
+          <a href="https://www.facebook.com/kevinpleong" rel="noopener" target="_blank"><img src={facebookIcon} width="30" height="30" alt="Facebook Icon" class="img-responsive" /></a>
 
-          <img src={twitterIcon} href="https://twitter.com/kevinpleong" target="_blank" rel="noopener" width="30" height="30" alt="Twitter Icon" className="img-responsive" />
+          <a href="https://twitter.com/kevinpleong" target="_blank" rel="noopener"><img src={twitterIcon} width="30" height="30" alt="Twitter Icon" className="img-responsive" /></a>
 
-          <img src={instagramIcon} width="30" height="30" alt="Instagram Icon" href="https://instagram.com/kevinpleong" target="_blank" rel="noopener" className="img-responsive" />
+          <a href="https://instagram.com/kevinpleong" target="_blank" rel="noopener"><img src={instagramIcon} width="30" height="30" alt="Instagram Icon" className="img-responsive" /></a>
 
-          <img src={linkedinIcon} width="30" height="30" alt="Linked In Icon" href="https://www.linkedin.com/in/kevinpleong" target="_blank" rel="noopener" className="img-responsive"/>
+          <a href="https://www.linkedin.com/in/kevinpleong" target="_blank" rel="noopener"><img src={linkedinIcon} width="30" height="30" alt="Linked In Icon" className="img-responsive"/></a>
 
-          <img src={pinterestIcon} width="30" height="30" alt="Pinterest Icon" href="https://pinterest.com/kevinpleong" target="_blank" rel="noopener" className="img-responsive"/>
+          <a  href="https://pinterest.com/kevinpleong" target="_blank" rel="noopener"><img src={pinterestIcon} width="30" height="30" alt="Pinterest Icon" className="img-responsive"/></a>
 
-          <img src={githubIcon} width="30" height="30" alt="Git Hub" href="https://github.com/kevinpleong" target="_blank" rel="noopener" className="img-responive" />
+          <a href="https://github.com/kevinpleong" target="_blank" rel="noopener"><img src={githubIcon} width="30" height="30" alt="Git Hub" className="img-responive" /></a>
 
-          <img src={stackoverflowIcon} width="30" height="30" alt="Stack Overflow" href="https://meta.stackoverflow.com/users/11357673/kevin-leong" target="_blank" rel="noopener" className="img-responsive"/>
+          <a href="https://meta.stackoverflow.com/users/11357673/kevin-leong" target="_blank" rel="noopener"><img src={stackoverflowIcon} width="30" height="30" alt="Stack Overflow" className="img-responsive"/></a>
 
-          <img src={fiverrIcon} width="30" height="30" alt="Fiverr" href="https://www.fiverr.com/kevinpleong" target="_blank" rel="noopener" className="img-responsive"/>
+          <a href="https://www.fiverr.com/kevinpleong" target="_blank" alt="Fiverr" rel="noopener"><img src={fiverrIcon} width="30" height="30" className="img-responsive"/></a>
 
-          <img src={goodreadsIcon} width="30" height="30" alt="Goodreads Icon" className="img-responsive" href="https://www.goodreads.com/kevinpleong" target="_blank" rel="noopener" />
+          <a href="https://www.goodreads.com/kevinpleong" target="_blank" rel="noopener"><img src={goodreadsIcon} width="30" height="30" className="img-responsive" alt="Goodreads Icon" /></a>
 
-          <img src={youTubeIcon} width="30" height="30" href="https://www.youtube.com/channel/UCgCtAiPn05h2AXCpPmECw4g/" rel="noopener" target="_blank" alt="YouTube Icon" className="img-responsive" />
+          <a href="https://www.youtube.com/channel/UCgCtAiPn05h2AXCpPmECw4g/" rel="noopener" target="_blank"><img src={youTubeIcon} width="30" height="30" className="img-responsive" alt="YouTube Icon"/></a>
       </footer>
     </div>);
   } // END OF RENDER
