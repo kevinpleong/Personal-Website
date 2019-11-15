@@ -6,19 +6,19 @@ import Australia2 from './Sydney Bridge and Opera House.jpg'
 import Australia3 from './Sydney Harbor Bridge 072714.jpg'
 import Belgium from './Belgium.jpg'
 import Boston from './Boston.jpg'
-import Chamonix from './Chamonix France.jpg'
+import Chamonix from './Chamonix France.JPG'
 import Chaminix2 from './Paragliding France.jpg'
 import China from './China Great Wall.jpg'
 import China1 from './China Ice Glacier.jpg'
 import Ecuador from './Ecuador 033114.jpg'
-import England from './Big Ben England.jpg'
-import England2 from './Harry Potter England.jpg'
+import England from './Big Ben England.JPG'
+import England2 from './Harry Potter England.JPG'
 import England3 from './London-Bridge.jpg'
 import Florida  from './Space Shuttle Launch.jpg'
 import Galapagos from './Galapagos 040414.jpg'
 import Galapagos2 from './Galapagos.jpg'
-import Germany from './Germany.jpg'
-import Hawaii from './Hawaii.jpg'
+import Germany from './Germany.JPG'
+import Hawaii from './hawaii.JPG'
 import Japan from './Japan-Potstickers.jpg'
 import Japan2 from './Streets of Japan.jpg'
 import Japan3 from './Japan Train.jpg'
@@ -29,13 +29,13 @@ import Malaysia from './Malaysia.jpg'
 import NewOrleans from './New Orleans.jpg'
 import NewYork from './New York.jpg'
 import NewZealand from './Hobbit New Zealand.jpg'
-import Paris from './Disney Paris.jpg'
+import Paris from './Disney Paris.JPG'
 import Paris2 from './Notre Dame Paris.jpg'
 import Phuket from './Phuket Elephant Ride 032919.jpg'
 import Philippines from './KTD Scuba Cebu.jpg'
 import Philippines2 from './Borocay Sand Castle.jpg'
 import Philippines3 from './Parasailing Borocay Philippines.jpg'
-import Rome from './Rome Italy Colosseum.jpg'
+import Rome from './Rome Italy Colosseum.JPG'
 import Seattle from './Seattle.jpg'
 import Singapore from './Singapore 101214.jpg'
 import Singapore2 from './Singapore.jpg'
@@ -44,7 +44,7 @@ import Spain2 from './Rock of Gibraltar 062615.jpg'
 import Thailand from './James Bond Island Thailand.jpg'
 import Taiwan from './Taipei 101 Taiwan.jpg'
 import Virginia from './Virginia.jpg'
-import Virginia2 from './Virginia2.jpg'
+import Virginia2 from './Virginia2.JPG'
 
 export default class Travel extends React.Component {
   render() {
@@ -87,7 +87,7 @@ export default class Travel extends React.Component {
             </div>
           </div>
         <div className="col-md-4">
-          <img src={NewOrleans} alt="Picture out front of Creole Restaurant in New Orleans" className="img-fluid"></img>
+          <img src={NewOrleans} className="img-fluid" alt="New Orleans"></img>
             <div className="caption text-center">
               <p className="text-center">New Orleans in front of a Creole Restaurant</p>
             </div>
@@ -294,7 +294,7 @@ export default class Travel extends React.Component {
 
       <div className="row">
         <div className="col-md-3">
-          <img src={Chamonix} alt="hamonix France Family Photo with Mountain Background" className="img-fluid"></img>
+          <img src={Chamonix} className="img-fluid" alt="Chamonix France"></img>
             <div className="caption text-center">
               <p className="text-center">Chamonix, France</p>
             </div>
