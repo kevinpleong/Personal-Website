@@ -3,7 +3,7 @@ export default class Home extends React.Component {
   render() {
     return (
       <div className="container">
-      <p>My name is Kevin. I’m a front-end web developer living in Palo Alto, California. I am a fan of travel, baking, and swimming. I enjoy front-end web development. I have been programming for 4 years. I have a 7-year-old yellow Labrador retriever named Kelly. I am also an entrepreneur. You can visit
+      <p>My name is Kevin. I’m a front-end web developer living in Palo Alto, California. I am a fan of travel, baking, and swimming. I enjoy front-end web development. I have been programming for 4 years. I have a 8-year-old yellow Labrador retriever named Kelly. I am also an entrepreneur. You can visit
         <a href="https://pawsitively-delicious.com" className="_blank" rel="noopener">my website here.</a>
       </p>
 
