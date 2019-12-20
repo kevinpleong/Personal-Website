@@ -15,12 +15,8 @@ return (
     </div>
   </div>
   <div className="col-md-4">
-    <div class="row">
       <a href="https://www.linkedin.com/in/kevinpleong" target="_blank" rel="noopener noreferrer"><img src={linkedinIcon} width="30" height="30" alt="Linked In Icon" className="img-responsive" /></a>
-    </div>
-    <div class="row">
       <a href="http://contact.kevinpleong.com" rel="noopener noreferrer" target="_blank"><img src={mailIcon} width="30" height="30" alt="Email" className="img-responsive" /></a>
-    </div>
   </div>
 
   <div className="col-md-12">
